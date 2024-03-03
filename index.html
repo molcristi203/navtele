@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NavTele</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="navigation.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-column1">
+            <div class="logo">
+                <span>NavTele</span>
+            </div>
+        </div>
+        <div class="header-column2 parallax-wrapper">
+            <img src="poze/patrick-turner-YEoF12PgTtQ-unsplash.jpg" alt="" class="parallax">
+        </div>
+    </header>
+    <section class="row"><h1>Supraveghere și alarme</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet blanditiis vitae, dignissimos, natus obcaecati ullam eius aliquam nemo quae dicta perspiciatis pariatur enim dolores odio porro ipsum corporis odit? Numquam, quidem veritatis, facilis molestiae maiores magnam in aut vitae quis iure unde illo amet cupiditate, libero sunt est enim provident.</p></section>
+    <section class="image parallax-wrapper">
+        <img class="parallax" src="poze/michal-jakubowski-oQD9uq4Rd4I-unsplash.jpg" alt="">
+    </section>
+    <section class="row"><h1>Instalații de supraveghere la stingerea incendiilor</h1><p>Tempora ipsa laborum asperiores voluptatem officiis animi vero saepe ex sit pariatur numquam, cumque iste natus dignissimos nihil error quidem, quos molestias at in nostrum. Repellendus iure tenetur quia minima doloribus facilis odit enim omnis! Fugiat ad ipsa quo reprehenderit ullam! Dolorum ipsam adipisci eos quae quibusdam quia ea officiis!</p></section>
+    <section class="image parallax-wrapper">
+        <img class="parallax" src="poze/evgeniy-alyoshin-NRws_OmnikE-unsplash.jpg" alt="">
+    </section>
+    <section class="row"><h1>Rețele de fibră optică</h1><p>Repellat accusantium distinctio incidunt unde eveniet cupiditate soluta, esse minus commodi voluptate doloremque non officiis repudiandae sed rerum nesciunt tempora dicta ipsum minima voluptas cum? Eum magni quis dolorum, maxime quod iure sit illo consectetur dicta molestiae doloremque modi vel optio maiores doloribus temporibus molestias beatae facilis nobis! Nisi, ullam.</p></section>
+    <section class="image parallax-wrapper">
+        <img class="parallax" src="poze/denny-muller-JyRTi3LoQnc-unsplash.jpg" alt="">
+    </section>
+    <section class="form-row">
+        <div class="form-column1">
+            <h2>Contact</h2>
+            <form action="" class="form">
+                <label for="nume">Nume: *</label>
+                <input type="text" name="nume" id="nume">
+                <label for="mail">E-mail: *</label>
+                <input type="email" name="mail" id="mail">
+                <label for="tel">Telefon: *</label>
+                <input type="tel" name="tel" id="tel">
+                <label for="mesaj">Mesaj: </label>
+                <textarea name="mesaj" id="mesaj"></textarea>
+                <button type="submit">Trimite</button>
+            </form>
+        </div>
+        <div class="form-column2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2760.578878217306!2d24.791405438144096!3d46.21883179417337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474b75c85f89032f%3A0x2356e7e391038d1d!2sThe%20Clock%20Tower!5e0!3m2!1sen!2sro!4v1709502293605!5m2!1sen!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer class="footer">
+        © Copyright
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <script>
+        let images = document.querySelectorAll(".parallax");
+        new simpleParallax(images, {
+            customWrapper: ".parallax-wrapper",
+            scale: 1.5
+        });
+    </script>
+</body>
+</html>
